@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         OpenBSD but darker
-@version      1.9.9
+@version      1.0.0
 @description  Dark OpenBSD website theme
 @namespace    https://github.com/nahanil/uglify
 @author       nahanil
@@ -9,7 +9,7 @@
 @updateURL    https://raw.githubusercontent.com/nahanil/uglify/master/styles/openbsd-dark.css 
 @license      CC-BY-SA-4.0
 ==/UserStyle== */
-@-moz-document regexp("http[s]?://(www|man).openbsd.org/.*"),
+@-moz-document
 regexp("http[s]?://(www|man).openbsd.org/.*") {
   body {
     background-color: #222;

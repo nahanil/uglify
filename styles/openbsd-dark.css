@@ -1,0 +1,69 @@
+/* ==UserStyle==
+@name         OpenBSD but darker
+@version      1.9.9
+@description  Dark OpenBSD website theme
+@namespace    https://github.com/nahanil/uglify
+@author       nahanil
+@homepageURL  https://github.com/nahanil/uglify
+@supportURL   https://github.com/nahanil/uglify/issues
+@updateURL    https://raw.githubusercontent.com/nahanil/uglify/master/styles/openbsd-dark.css 
+@license      CC-BY-SA-4.0
+==/UserStyle== */
+@-moz-document regexp("http[s]?://(www|man).openbsd.org/.*"),
+regexp("http[s]?://(www|man).openbsd.org/.*") {
+  body {
+    background-color: #222;
+    color: #ccc;
+    margin: 15px auto;
+    padding: 0 10px;
+  }
+
+  :root {
+    --red:   #d63031;
+    --green: #55efc4;
+    --blue:  #0984e3;
+    --buildhead: #E0E0E0;
+  }
+
+  :link {
+    color: #74b9ff;
+  }
+
+  :visited {
+    color: #a29bfe;
+  }
+
+  #OpenBSD {
+    color: #E00000;
+  }
+
+  #OpenBSD :link, #OpenBSD :visited {
+    color: #0984e3;
+  }
+
+  #OpenBSD :link i, #OpenBSD :visited i {
+    color: #74b9ff;
+  }
+
+  #OpenBSD :link b, #OpenBSD :visited b {
+    color: #0984e3;
+  }
+
+  nav {
+    color: #333;    
+  }
+
+  nav :link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  nav :visited {
+    color: #8e44ad
+  }
+
+  .cmdbox {
+    background: #111;
+  }
+}
+
